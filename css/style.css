@@ -19,22 +19,22 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 75px;
+    margin-bottom: 75px;
 }
 
 .wrap{
-    margin-top: 75px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    max-width: 1200px;
 }
 
-.wrap__card{
+.card{
     margin: auto;
     max-width: 276px;
 }
 
-.wrap__img{
+.card__img{
     width: 276px;
     height: 250px;
 }
@@ -43,7 +43,7 @@ img{
     width: 100%;
 }
 
-.wrap__title{
+.card__title{
     font-size: 18px;
     font-weight: 500;
     line-height: 22px;
@@ -53,7 +53,7 @@ img{
     margin-bottom: 0px;
 }
 
-.wrap__btn{
+.card__btn{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -69,13 +69,13 @@ img{
     text-transform: uppercase;
 }
 
-.btn-more{
+.btn__more{
     background-color: #ffffff;
     border: 3px solid #66cc66;
     color: #66cc66;
 }
 
-.btn-order{
+.btn__order{
     background-color: #66cc66;
     border: 3px solid #66cc66;
     color: #ffffff;
